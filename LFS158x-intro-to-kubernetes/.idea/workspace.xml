@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e58ca60c-eaa5-4f0d-86a3-1d4abb868b25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-blue-shared-vol.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-green-shared-vol.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blue-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blue-web/web-blue-with-cm.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canary-svc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer1-configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/green-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/green-web/web-green-with-cm.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-from" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypass.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permission-reset.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/probe.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/joe.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/joe.csr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/joe.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/role.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/rolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rbac/signing-request.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtual-host-ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webserver-svc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webserver.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kubernetes Pod" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "minikube",
+      "originalNamespace": "default"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ec6LlFAKTt5JkyUlD74QjnycUy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e58ca60c-eaa5-4f0d-86a3-1d4abb868b25" name="Changes" comment="" />
+      <created>1712191467322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712191467322</updated>
+      <workItem from="1712191468413" duration="5320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

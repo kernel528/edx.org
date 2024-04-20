@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="" />
+    <mapping directory="$PROJECT_DIR$/chap1-graphql-fundamentals" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/factor-express-demo" vcs="" />
+    <mapping directory="$PROJECT_DIR$/factor-express-demo/falcor-app-server/falcor-express-demo" vcs="" />
+    <mapping directory="$PROJECT_DIR$/factor-express-demo/falcor-app-server/falcor-router-demo" vcs="" />
+  </component>
+</project>
