@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/edx.iml" filepath="$PROJECT_DIR$/edx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edx.org.iml" filepath="$PROJECT_DIR$/edx.org.iml" />
     </modules>
   </component>
 </project>
