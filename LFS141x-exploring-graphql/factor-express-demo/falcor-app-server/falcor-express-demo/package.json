@@ -21,14 +21,14 @@
     "start": "node_modules/.bin/nodemon -w index.js & node watch.js"
   },
   "dependencies": {
-    "express": "^4.13.3",
     "body-parser": "^1.14.1",
-    "falcor-router-demo": "^1.0.4",
-    "falcor-express": "^0.1.2"
+    "express": "^4.13.3",
+    "falcor-express": "^0.1.2",
+    "falcor-router-demo": "^1.0.4"
   },
   "devDependencies": {
     "eslint": "^1.7.1",
-    "livereload": "^0.4.1",
-    "nodemon": "^1.8.0"
+    "livereload": "^0.9.3",
+    "nodemon": "^3.1.0"
   }
 }

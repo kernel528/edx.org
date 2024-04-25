@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="380daf21-d330-4b8b-888b-116392edb33a" name="Changes" comment="" />
+    <list default="true" id="380daf21-d330-4b8b-888b-116392edb33a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-express-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-express-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-express-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-express-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-router-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/falcor-router-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFS141x-exploring-graphql/factor-express-demo/falcor-app-server/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,29 +44,29 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2fNxKyhos0gaSOWrlW56YcHOZRw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713655278460</updated>
       <workItem from="1713655279543" duration="1033000" />
+      <workItem from="1713913757268" duration="2176000" />
     </task>
     <servers />
   </component>
