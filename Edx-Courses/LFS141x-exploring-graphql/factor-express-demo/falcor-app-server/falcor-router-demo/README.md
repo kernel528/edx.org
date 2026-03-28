@@ -2,6 +2,8 @@
 
 This project exports a Router factory for a Netflix-like Application. The Router creates a virtual JSON Graph object for a Netflix-like application, and is intended to be exposed as JSON resource on a Node Application Server. The JSON Graph object is referred to as "virtual", because it is not stored in memory anywhere. Instead the Router builds requested subsets of the JSON Graph on-demand by accessing three different databases. This creates the illusion that there is a JSON resource on the application server, when in fact the application server is completely stateless and retrieves requested data on-the-fly from the data stores.
 
+Source repo: https://github.com/netflix/falcor-router-demo
+
 ## A Virtual JSON Graph object for Netflix
 
 When a member logs into the Netflix application, they see a personalized list of genres, each of which contains a personalized list of titles.
