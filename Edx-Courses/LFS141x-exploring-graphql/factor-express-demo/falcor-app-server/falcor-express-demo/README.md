@@ -4,6 +4,7 @@ This project is a demonstration of how to create a stateless Virtual JSON Graph 
 
 ## Getting Started
 
+Source repo:  https://github.com/netflix/falcor-express-demo
 Clone the repo: `https://github.com/Netflix/falcor-express-demo.git`
 
 ``` sh
