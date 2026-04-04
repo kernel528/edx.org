@@ -1,11 +1,10 @@
 apiVersion: networking.k8s.io/v1 
 kind: Ingress
 metadata:
-  annotations:
-    kubernetes.io/ingress.class: "nginx"
   name: virtual-host-ingress
   namespace: default
 spec:
+  ingressClassName: nginx
   rules:
   - host: blue.example.com
     http:

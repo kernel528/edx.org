@@ -4,6 +4,8 @@ set -euo pipefail
 K8S_DIR="${K8S_DIR:-Edx-Courses/LFS158x-intro-to-kubernetes}"
 WAIT_TIMEOUT="${WAIT_TIMEOUT:-180s}"
 INGRESS_MODE="${INGRESS_MODE:-auto}"
+PF_WEB_PORT="${PF_WEB_PORT:-18080}"
+PF_CANARY_PORT="${PF_CANARY_PORT:-18083}"
 
 log() {
   printf "\n==> %s\n" "$1"
@@ -185,7 +187,8 @@ Optional interactive checks:
   kubectl get pod liveness-exec -w
   kubectl describe ingress virtual-host-ingress
   kubectl describe svc canary
-  kubectl port-forward svc/web-service 8080:80
+  kubectl port-forward svc/web-service ${PF_WEB_PORT}:80
+  kubectl port-forward svc/canary ${PF_CANARY_PORT}:80
 
 Optional CSR approval:
   kubectl certificate approve joe-csr
@@ -193,5 +196,7 @@ Optional CSR approval:
 Environment toggles:
   WAIT_TIMEOUT=180s   # rollout/wait timeout for pods/deployments
   INGRESS_MODE=auto   # auto|true|false
+  PF_WEB_PORT=18080   # local port for web-service port-forward
+  PF_CANARY_PORT=18083 # local port for canary port-forward
 
 EOF
