@@ -6,6 +6,7 @@ WAIT_TIMEOUT="${WAIT_TIMEOUT:-180s}"
 INGRESS_MODE="${INGRESS_MODE:-auto}"
 PF_WEB_PORT="${PF_WEB_PORT:-18080}"
 PF_CANARY_PORT="${PF_CANARY_PORT:-18083}"
+INGRESS_APPLIED=false
 
 log() {
   printf "\n==> %s\n" "$1"
@@ -153,10 +154,12 @@ if [[ "${INGRESS_MODE}" == "false" ]]; then
 elif [[ "${INGRESS_MODE}" == "true" ]]; then
   kubectl apply -f "$K8S_DIR/virtual-host-ingress.yaml"
   kubectl get ingress virtual-host-ingress
+  INGRESS_APPLIED=true
 else
   if ingress_class_exists nginx; then
     kubectl apply -f "$K8S_DIR/virtual-host-ingress.yaml"
     kubectl get ingress virtual-host-ingress
+    INGRESS_APPLIED=true
   else
     printf "Skipping ingress apply: no ingressClass named 'nginx'.\n"
     printf "Set INGRESS_MODE=true to force apply, or install ingress-nginx first.\n"
@@ -179,24 +182,23 @@ kubectl get ingress
 kubectl get role,rolebinding -n sanders-edx
 kubectl get csr
 
-cat <<'EOF'
+printf "\nLab apply complete.\n\n"
+printf "Optional interactive checks:\n"
+printf "  kubectl get pod liveness-exec -w\n"
+if [[ "${INGRESS_APPLIED}" == "true" ]]; then
+  printf "  kubectl describe ingress virtual-host-ingress\n"
+else
+  printf "  # ingress skipped (no ingressClass nginx).\n"
+fi
+printf "  kubectl describe svc canary\n"
+printf "  kubectl port-forward svc/web-service %s:80\n" "${PF_WEB_PORT}"
+printf "  kubectl port-forward svc/canary %s:80\n\n" "${PF_CANARY_PORT}"
 
-Lab apply complete.
+printf "Optional CSR approval:\n"
+printf "  kubectl certificate approve joe-csr\n\n"
 
-Optional interactive checks:
-  kubectl get pod liveness-exec -w
-  kubectl describe ingress virtual-host-ingress
-  kubectl describe svc canary
-  kubectl port-forward svc/web-service ${PF_WEB_PORT}:80
-  kubectl port-forward svc/canary ${PF_CANARY_PORT}:80
-
-Optional CSR approval:
-  kubectl certificate approve joe-csr
-
-Environment toggles:
-  WAIT_TIMEOUT=180s   # rollout/wait timeout for pods/deployments
-  INGRESS_MODE=auto   # auto|true|false
-  PF_WEB_PORT=18080   # local port for web-service port-forward
-  PF_CANARY_PORT=18083 # local port for canary port-forward
-
-EOF
+printf "Environment toggles:\n"
+printf "  WAIT_TIMEOUT=180s    # rollout/wait timeout for pods/deployments\n"
+printf "  INGRESS_MODE=auto    # auto|true|false\n"
+printf "  PF_WEB_PORT=18080    # local port for web-service port-forward\n"
+printf "  PF_CANARY_PORT=18083 # local port for canary port-forward\n"
