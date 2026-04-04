@@ -66,3 +66,4 @@ Cleanup:
 
 - If no ingress controller is installed, `lab-run.sh` (default `INGRESS_MODE=auto`) will skip ingress apply.
 - See `AGENT.md` for a focused summary of branch automation/config updates.
+- See `SECURITY.md` for vulnerability triage guidance and legacy demo dependency policy.
