@@ -23,4 +23,7 @@ app.use(
 // serve static files from current directory
 app.use(express.static(__dirname + "/"));
 
-app.listen(3000);
+const port = process.env.PORT || 13000;
+app.listen(port, () => {
+    console.log(`Falcor app server listening at http://localhost:${port}`);
+});
