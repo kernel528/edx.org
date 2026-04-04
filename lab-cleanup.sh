@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Opencode + codex lab cleanup script
 K8S_DIR="${K8S_DIR:-Edx-Courses/LFS158x-intro-to-kubernetes}"
 
 log() {
