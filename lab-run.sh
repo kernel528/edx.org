@@ -188,6 +188,10 @@ printf "Optional interactive checks:\n"
 printf "  kubectl get pod liveness-exec -w\n"
 if [[ "${INGRESS_APPLIED}" == "true" ]]; then
   printf "  kubectl describe ingress virtual-host-ingress\n"
+  printf "  curl --resolve blue.example.com:10080:127.0.0.1 http://blue.example.com:10080/\n"
+  printf "  curl --resolve green.example.com:10080:127.0.0.1 http://green.example.com:10080/\n"
+  printf "  curl -k --resolve blue.example.com:10443:127.0.0.1 https://blue.example.com:10443/\n"
+  printf "  curl -k --resolve green.example.com:10443:127.0.0.1 https://green.example.com:10443/\n"
 else
   printf "  # ingress skipped (no ingressClass nginx).\n"
 fi
